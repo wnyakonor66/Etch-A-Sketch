@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 960px;
+    height: 960px;
+    margin-top: 20px;
+
+    
+}
+
+.square {
+    background-color: blue;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.btn {
+   padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
